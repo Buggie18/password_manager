@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="txtInterregular24">
+
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylewhite_A700">
+
+    </style>
+    <style name="btnSolid">
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+
+    </style>
+</resources>
