@@ -45,5 +45,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
         b2!!.setOnClickListener { finish() }
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 }

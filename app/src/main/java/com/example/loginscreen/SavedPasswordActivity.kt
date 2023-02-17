@@ -47,6 +47,5 @@ class SavedPasswordActivity : AppCompatActivity() {
             Toast.makeText(this, "Added new password successfully", Toast.LENGTH_SHORT).show()
         }
     }
-        }
-
+}
 

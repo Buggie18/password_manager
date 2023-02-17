@@ -21,8 +21,8 @@ class UserAdapter(val c:Context,val userList:ArrayList<UserData>):
 
     inner class UserViewHolder(v:View):RecyclerView.ViewHolder(v){
         var UserWebsite:TextView
-       var Username:TextView
-       var UserPassword: TextView
+        var Username:TextView
+        var UserPassword: TextView
         var mMenus:ImageView
         init {
             UserWebsite = v.findViewById<TextView>(R.id.Row1)
@@ -39,7 +39,7 @@ class UserAdapter(val c:Context,val userList:ArrayList<UserData>):
 
             popupMenus.setOnMenuItemClickListener {
                 when(it.itemId){
-                            R.id.delete->{
+                    R.id.delete->{
 
                         AlertDialog.Builder(c)
                             .setTitle("Delete")
@@ -70,12 +70,12 @@ class UserAdapter(val c:Context,val userList:ArrayList<UserData>):
                             .setView(v)
                             .setPositiveButton("Ok"){
                                     dialog,_->
-                                    position.userWebsite = web.text.toString()
-                                    position.userName = name.text.toString()
-                                    position.userPassword = pass.text.toString()
-                                    notifyDataSetChanged()
-                                    Toast.makeText(c, "Information is Edited", Toast.LENGTH_SHORT)
-                                        .show()
+                                position.userWebsite = web.text.toString()
+                                position.userName = name.text.toString()
+                                position.userPassword = pass.text.toString()
+                                notifyDataSetChanged()
+                                Toast.makeText(c, "Information is Edited", Toast.LENGTH_SHORT)
+                                    .show()
 
                                 dialog.dismiss()
 

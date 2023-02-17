@@ -13,6 +13,8 @@
     <string name="EnterPassword">Enter Password</string>
     <string name="Saved_Password">Your Saved Passwords</string>
     <string name="Add_Button">Button with plus sign</string>
+    <string name="theme">CHOOSE YOUR THEME</string>
+    <string name="next">NEXT</string>
 
 
 </resources>
