@@ -3,6 +3,7 @@ In a world, where we tend to forget passwords we have created when signing up on
 
 ### Technologies Used
 * Kotlin
+* Firebase
 * Android Studio
 
 ### Features
